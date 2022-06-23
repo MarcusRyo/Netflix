@@ -6,6 +6,10 @@
     color: white;
 }
 
+header{
+    position: absolute;
+}
+
 header > img{
     height: 30px;
     margin: 20px 20px 20px 50px;
@@ -25,18 +29,30 @@ i{
     color: white;
 }
 
-main{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 main > div{
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .body{
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+p{
+    text-align: center;
+}
+
+#icon:hover{
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.perfil-1:hover{
+    font-weight: 800;
 }
