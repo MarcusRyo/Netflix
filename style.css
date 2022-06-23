@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+header > img{
+    height: 30px;
+    margin: 20px 20px 20px 50px;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+}
+
+#icon{
+    height: 130px;
+}
+
+i{
+    font-size: 40px;
+    color: white;
+}
+
+main{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main > div{
+    display: flex;
+    gap: 10px;
+}
+
+.body{
+    height: 100%;
+}
